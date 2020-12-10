@@ -1,0 +1,1 @@
+cmd='/usr/bin/cmake;-DSDKCONFIG=/home/harshad/esp-idf/examples/opcua-esp32/sdkconfig;-DIDF_PATH=/home/harshad/esp-idf;-DIDF_TARGET=esp32;-DPYTHON_DEPS_CHECKED=1;-DPYTHON=/root/.espressif/python_env/idf4.3_py2.7_env/bin/python;-DEXTRA_COMPONENT_DIRS=/home/harshad/esp-idf/components/bootloader;-DLEGACY_INCLUDE_COMMON_HEADERS=;-GUnix Makefiles;<SOURCE_DIR><SOURCE_SUBDIR>'

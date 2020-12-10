@@ -1,0 +1,14 @@
+idf_build_get_property(target IDF_TARGET)
+if(${target} STREQUAL "esp32c3")
+    return() # TODO ESP32-C3 IDF-2180
+endif()
+idf_component_register(SRCS "Partition.cpp"
+                            "SPI_Flash.cpp"
+                            "WL_Ext_Perf.cpp"
+                            "WL_Ext_Safe.cpp"
+                            "WL_Flash.cpp"
+                            "crc32.cpp"
+                            "wear_levelling.cpp"
+                    INCLUDE_DIRS include
+                    PRIV_INCLUDE_DIRS private_include
+                    REQUIRES spi_flash)
