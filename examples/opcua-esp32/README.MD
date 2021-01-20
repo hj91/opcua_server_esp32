@@ -8,7 +8,7 @@ It is aimed to run OPC UA server on ESP32 board (xtensa toolchain). The informat
     RELAY 0      : GPIO 32
     RELAY 1      : GPIO 33
 
-It is tested by UAExpert and also Matrikon Mobile IOS OPC UA Client. So if you face any problems with other clients please let me know.
+It is tested by Bufferstack.IO Gateway OPC UA client (https://sourceforge.net/projects/iiot-gateway/), UAExpert and also Matrikon Mobile IOS OPC UA Client. So if you face any problems with other clients please let me know.
 
 ### Prerequisites
 
